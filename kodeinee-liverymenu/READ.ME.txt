@@ -1,0 +1,22 @@
+# kodeinee-liverymenu
+
+A simple QBCore resource that adds a `liverymenu` command to open a menu for selecting and applying vehicle liveries.
+
+---
+
+## Features
+
+- Opens a menu to select from available liveries on the vehicle you're currently inside.
+- Applies the selected livery instantly.
+- Simple and lightweight, depends on QBCore and qb-menu.
+
+---
+
+## Installation
+
+1. Place the `kodeinee-liverymenu` folder into your server's `resources` directory.
+
+2. Add the following line to your `server.cfg` (make sure it loads after `qb-core` and `qb-menu`)
+
+```plaintext
+ensure kodeinee-liverymenu
